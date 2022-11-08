@@ -1,0 +1,195 @@
+/* ==================== GENERAL STYLINGS ====================  */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url("../Images/WT\ bg.jpg") fixed center;
+}
+.container{
+    max-width: 77rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    background: #86B3EE;
+    color: #fff;
+    border-radius: 3rem;
+    padding: 0.5rem 1rem;
+}
+.menu .btn-bold{
+    background: #86B3EE;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 3rem;
+    padding: 0.3rem 1rem;
+    margin-left: 2.5rem;
+    margin-top: .85rem;
+}
+.menu .btn-bold:last-child{
+    margin-right: 2.5rem;
+}
+.menu .btn-bold:hover{
+    color: #000;
+    background: #fff;
+}
+.small {
+    padding: .3rem .7rem !important;
+    font-size: .9rem;
+}
+.btn:hover{
+    color: #000;
+    background: #fff;
+}
+.title {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    margin-top: 5rem;
+    padding-bottom: 1rem;
+    line-height: 0;
+    font-size: 1.6rem;
+    font-weight:500;
+    margin-bottom: 1rem;
+}
+.title::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 3px;
+    border-radius: 3px;
+    left: 25%;
+    background-color: #fff;
+}
+.title::after {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 3px;
+    border-radius: 3px;
+    right: 25%;
+    background-color: #fff;
+}
+/* ==================== END GENERAL STYLINGS ====================  */
+
+
+/* ==================== HEADER PART ====================  */
+header {
+    width: 100%;
+    overflow: hidden;
+}
+nav .header{
+    display: flex;
+    justify-content: space-between;
+    height: 3.5rem;
+    margin: 0 auto;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.menu ul {
+    display: flex;
+}
+.menu a{
+    display: inline-block;
+    padding: 1rem 2rem;
+}
+.menu li{
+    color:#fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: .4rem;
+}
+.menu a.active{
+    background: #86B3EE;
+    color: #fff;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    padding: .22rem .8rem;
+    margin-top: .65rem;
+    margin-left: 3.5rem;
+}
+.menu li:hover{
+    color: #86B3EE;
+    cursor: pointer;
+}
+.menu a.active:hover{
+    color: #000;
+    background: #fff;
+}
+.icon{
+    margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.header-content{
+    text-align: center;
+    margin-top: 3rem;
+    color: #fff;
+    padding: .5rem 0;
+}
+.header-content h1{
+    font-size: 3.5rem;
+}
+.header-content p{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+/* ==================== END HEADER PART ====================  */
+
+
+/* ==================== SERVICES PART ====================  */
+/* .cards{
+    max-width: 52rem !important;
+    text-align: center !important;
+} */
+.cards-container{
+    width: 52rem;
+    margin-left: 10rem;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.card-wrap {
+    margin: 1.4rem 0.4rem;
+}
+.card img{
+    width: 110px;
+    height: 110px;
+}
+.card p{
+    margin: 1.1rem 0 0.9rem 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: .99rem;
+}
+.card {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem 2rem;
+    background: rgba(255,255,255,0.4);
+    overflow: hidden;
+    border: none;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 20px;
+}
+
+
+
+/* ==================== END SERVICES PART ====================  */

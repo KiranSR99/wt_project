@@ -1,0 +1,237 @@
+/* ==================== GENERAL STYLINGS ====================  */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    background: url("../Images/background.png") fixed center;
+}
+.container{
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    background: #86B3EE;
+    color: #fff;
+    border-radius: 3rem;
+    padding: 0.5rem 1rem;
+}
+.small {
+    padding: .4rem 1.3rem !important;
+    font-size: .9rem;
+}
+.btn:hover{
+    color: #000;
+    background: #fff;
+}
+.title {
+    position: relative;
+    text-align: center;
+    color: #000;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 0;
+    font-size: 1rem;
+    font-weight:500;
+}
+.title::before {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    border-radius: 3px;
+    left: 31%;
+    background-color: #000;
+}
+.title::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    border-radius: 3px;
+    right: 31%;
+    background-color: #000;
+}
+/* ==================== END GENERAL STYLINGS ====================  */
+
+
+/* ==================== HEADER PART ====================  */
+header {
+    width: 100%;
+    overflow: hidden;
+}
+nav .header{
+    display: flex;
+    justify-content: space-between;
+    height: 3.5rem;
+    margin: 0 auto;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.menu ul {
+    display: flex;
+}
+.menu a{
+    display: inline-block;
+    padding: 1rem 1rem;
+    color:#000;
+}
+.menu li{
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: .7rem;
+    margin-right: 2rem;
+}
+.menu a.active{
+    background: #86B3EE;
+    color: #fff;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    padding: .22rem .8rem;
+    margin-top: .65rem;
+    margin-left: 3.5rem;
+}
+.menu a:hover{
+    color: #86B3EE;
+    cursor: pointer;
+
+}
+.menu a.active:hover{
+    color: #000;
+    background: #fff;
+}
+.icon1{
+    margin-right: .5rem;
+    margin-top: .3rem;
+}
+.icon2{
+    margin-right: 1rem;
+}
+.search{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search .icon1{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    right: 18%;
+    bottom: 35%;
+}
+.search input{
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 1rem;
+    border-radius: 20px;
+    height: 2rem;
+    background: rgba(192, 192, 192, 0.5);
+}
+.search input:focus{
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+/* ==================== END HEADER PART ====================  */
+
+/* ==================== SERVICES PART ====================  */
+.service-title{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: .5rem;
+}
+/* .cards-container{
+    width: 52rem;
+    margin-left: 10rem;
+} */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.card-wrap {
+    margin: 1.4rem 0.4rem;
+}
+.card img{
+    width: 110px;
+    height: 110px;
+}
+.card p{
+    margin: 1.7rem 0 1.4rem 0;
+    color: #000;
+    font-weight: 500;
+    font-size: .99rem;
+}
+.card {
+    width: 230px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem 2rem;
+    background: rgba(192,192,192,0.2);
+    overflow: hidden;
+    border: none;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 20px;
+}
+/* ==================== END SERVICES PART ====================  */
+
+/* ==================== BOTTOM PART ====================  */
+.bottom .title::before {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    border-radius: 3px;
+    left: 36.5%;
+    background-color: #000;
+}
+.bottom .title::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    border-radius: 3px;
+    right: 36.5%;
+    background-color: #000;
+}
+.service-single img{
+    width: 80px;
+    height: 80px;
+}
+.service-single a{
+    display: block;
+    color: #000;
+    font-weight: 500;
+}
+.service-single a:hover{
+    color: #86B3EE;
+}
+.service-box{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 1.5rem 10rem;
+    text-align: center;
+    background: rgba(192,192,192,0.2);overflow: hidden;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    margin-top: 1rem;
+}
+/* ==================== END BOTTOM PART ====================  */
