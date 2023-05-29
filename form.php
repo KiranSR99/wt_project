@@ -47,7 +47,7 @@ family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,
                     <div class="section-header">
                         <h3 class="title">Fill all the details</h3>
                     </div>
-                    <form action="#">
+                    <form action="orderDetails.php">
                         <div class="details">
                             <div class="small-fields">
                                 <div class="row">

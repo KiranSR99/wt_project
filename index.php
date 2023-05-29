@@ -41,7 +41,6 @@ family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,
                             </div>
                             <!-- <a href="#"><img class="icon" src="./Images/user - Copy.png" alt="icon" height="35px"
                                     width="35px"></a> -->
-
                         </ul>
                     </div>
                 </div>
